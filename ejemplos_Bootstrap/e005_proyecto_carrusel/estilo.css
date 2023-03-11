@@ -1,0 +1,18 @@
+/*estilos generales*/
+
+body {
+  background-color: black;
+}
+
+div {
+  color: white;
+  background-color: darkblue;
+  /*border: 1px solid orange;*/
+   }
+
+.separador  {
+  margin:20px;
+}  
+
+/* */
+
