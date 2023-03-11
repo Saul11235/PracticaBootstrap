@@ -1,0 +1,62 @@
+.separador {
+  padding: 30px;
+  color: white;
+}
+
+s {
+  background-color: blue; 
+  color:white;
+  border: 4px solid red;
+      }
+
+body {
+  background-color: rgb(25,25,25);
+}      
+
+#sites a {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-decoration: none;
+  
+  
+}      
+
+/* Estilos hover*/
+
+#youtube:hover {
+  background-color: red;
+} 
+
+#facebook:hover {
+  background-color: blue;
+}
+
+#twitter:hover {
+  background-color: lightblue;
+}
+
+#wikipedia:hover {
+  background-color: white;
+  color: black;
+}
+
+#twitch:hover {
+  background-color: darkviolet;
+}
+
+#google:hover {
+  background-color: white;
+  color: blue;
+}
+
+#whatsapp:hover {
+  background-color: green;
+}
+
+#steam:hover {
+  background-color: darkblue;
+}
+
+
+
