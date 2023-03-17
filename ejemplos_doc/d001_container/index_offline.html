@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author"      content="">
+    <meta name="description" content="">
+    <meta name="keywords"    content="">
+    <meta name="viewport"    content="width=device-width, initial-scale=1">
+    <title>    </title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <!-- icons Bootstrap -->
+    <link rel="stylesheet" href="../../assets/icons/font/bootstrap-icons.css">
+
+    <!-- estilo personalizado para estos ejemplos -->
+<style>
+ /*Estilo para señalar a los divs y los textos subrayados*/
+  div{
+    background-color: orange;
+    border: 3px blue solid;
+  }
+  u {
+    color:blue;
+  }
+</style>
+
+  </head>
+
+  <body>
+
+
+    <!-- Codigo aqui -->
+
+    <h1>Hola bienvenido a la practica con containers</h1> 
+    <p>En bootstrap las etiquetas html se asignan a diversas clases para 
+    tener diferentes tipos de comportamiento </br>
+    Para este caso los divs se han señalado con un fondo naranja y un margen sólido azul.
+    recuerda que se deve asignar las clases en html del modo 
+    </p>
+    
+    
+  
+
+    <div class="container">
+      <!-- Content here -->
+      <h2>Div tipo <u>.container</u></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </br>
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+      qui officia deserunt mollit anim id est laborum </p>
+    </div>
+    
+
+    <p> algunos containers pueden asignarse comportamientos a diferentes tañaños
+    de vista, como small(sm) , medium(md), large(lg), extra large(xl) ó
+    extra extra large(xxl)</p>
+
+
+	<div class="container-sm">
+	  <h3>container tipo <u>container-sm</u></h3>
+	  <p>100% wide until small breakpoint</p>
+	</div>
+	<!-- -->
+	<div class="container-md">
+	  <h3>container tipo <u>container-md</u></h3>
+	  <p>100% wide until medium breakpoint</p>
+	</div>
+	<!-- -->
+	<div class="container-lg">
+	  <h3>container tipo <u>container-lg</u></h3>
+	  <p>100% wide until large breakpoint</p>
+	</div>
+	<!-- -->
+	<div class="container-xl">
+	  <h3>container tipo <u>container-xl</u></h3>
+	  <p>100% wide until extra large breakpoint</p>
+	</div>
+	<!-- -->
+	<div class="container-xxl">
+	  <h3>container tipo <u>container-xxl</u></h3>
+	  <p>100% wide until extra extra large breakpoint</p>
+	</div>
+
+    <p>Hay también containers que predeterminadamente utilizan todo al ancho de la pantalla
+    llamados container-fluid que automaticamente se situan en todo el ancho </p>
+
+    <div class="container-fluid">
+      <!-- Content here -->
+      <h2>Div tipo <u>.container-fluid</u></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </br>
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+      qui officia deserunt mollit anim id est laborum </p>
+    </div>
+
+    <p>Estos son los containers por estilo ejemplo adaptado de la doc oficial de bootstrap</p>
+    
+
+
+
+
+
+    <!-- Bootstrap JS-->
+    <script src="../../dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+
+  </body>
+</html>
