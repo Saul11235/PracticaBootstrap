@@ -28,7 +28,7 @@
   <body>
   
     <!-- Codigo aqui -->
-    <h1>Ejemplos de uso de grid</h1>
+    <h1>Ejemplos de uso de grid - Bootstrap</h1>
     <p> En este caso se tomaran en cuenta dos nuevos elementos que podemos usar en 
     bootstrap, las clases row y column respectivamente
     Recuerda que los elementos <u>col</u> deben estar dentro de <u>row</u>,
@@ -197,6 +197,11 @@
 
     <!--  ---------------------------- -->
      <h1>Ejemplo #6</h1>
+     <p>Una forma facil de hacer un diseño responsive, es establecer un punto
+     de quiebre, en este caso se tomo el breakpoint pequeñño (small) con las
+     clases <u>.col-sm-*</u> es decir que a partir de dicho punto de quebre
+     se seguiran los pesos indicados y antes se tomaran todos como elementos 
+     en fila</p>
 
 <div class="container">
   <div class="row">
@@ -210,10 +215,127 @@
   </div>
 </div>
      
+    <!--  ---------------------------- -->
+     <h1>Ejemplo #7</h1>
+     <p>AL combinar diversas clases y diferentes tipos de estilos, podremos tener
+     un diseño responsive mas eficaz, como en el ejemplo en el que como en el ejemplo anterior, poero esta vez
+     se toma´ran en cuenta dos breakpoints, el por defecto y el de tamaño medio (medium md)
+     mediante las clases <u>.col-* .col-md-*</u>  </p>
+
+<!-- ejemplo de la doc de Bootstrap -->
+<div class="container">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">.col-6</div>
+    <div class="col-6">.col-6</div>
+  </div>
+</div>
+
 
     <!--  ---------------------------- -->
+     <h1>Ejemplo #8</h1>
+     <p>Otra opción para utilizar row, es indicar de antemano el numero 
+     de columnas, como por ejemplo en este container con una unica fila
+     cuya  clase es <u>.row .row-cols-2</u> en donde indicamos que requerimos
+     dos columas en cada momento
+     </p>
+
+<div class="container">
+  <div class="row row-cols-2">
+    <div class="col">Column 1</div>
+    <div class="col">Column 2</div>
+    <div class="col">Column 3</div>
+    <div class="col">Column 4</div>
+    <div class="col">Column 5</div>
+  </div>
+</div>
 
     <!--  ---------------------------- -->
+     <h1>Ejemplo #9</h1>
+     <p>igual que el anterior pero con <u>.row .row-cols-3</u> </p>
+
+<div class="container">
+  <div class="row row-cols-3">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
+    <!--  ---------------------------- -->
+     <h1>Ejemplo #10</h1>
+     <p>igual que el anterior pero con <u>.row .row-cols-auto</u> </p>
+<div class="container">
+  <div class="row row-cols-auto">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
+    <!--  ---------------------------- -->
+     <h1>Ejemplo #11</h1>
+     <p>igual que el anterior pero con <u>.row .row-cols-auto</u> </p>
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
+    <!--  ---------------------------- -->
+     <h1>Ejemplo #12</h1>
+     <p>Para modificar el comportamiento al igual que los pesos se puede modificar el comportamiento
+     de row-cols, por ejemplo el siguiente ejemplo usa <u>.row .row-cols-1 .row-cols-sm-2 .row-cols-md-4</u> </p>
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
+    <!--  ---------------------------- -->
+     <h1>Ejemplo #13</h1>
+     <p> <strong>Nesting </strong>
+        To nest your content with the default grid, add a new 
+        .row and set of .col-sm-* columns within an existing .col-sm-* column.
+        Nested rows should include a set of columns that add up to 12 or fewer
+	(it is not required that you use all 12 available columns).</p>
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      Level 1: .col-sm-3
+    </div>
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-8 col-sm-6">
+          Level 2: .col-8 .col-sm-6
+        </div>
+        <div class="col-4 col-sm-6">
+          Level 2: .col-4 .col-sm-6
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!--  ---------------------------- -->
  
