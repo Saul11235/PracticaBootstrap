@@ -12,6 +12,21 @@
     <link href="../../assets/css/docs.css" rel="stylesheet">
     <!-- icons Bootstrap -->
     <link rel="stylesheet" href="../../assets/icons/font/bootstrap-icons.css">
+
+    <!-- estilo personalizado para estos ejemplos -->
+<style>
+/*para visualizar hemos creado las siguientes clases */
+ .RowAncho    { height:150px;}
+ .bordeOscuro { border: 2px darkgreen solid;}
+/*Estilo para señalar a los divs y los textos subrayados*/
+ div div            { border: 1px black solid; }
+ .grid         { background-color: lightcyan ; border: 5px purple solid; }
+ .grid div     { background-color: lightblue ; border: 5px blue   solid; }
+ .grid div div { background-color: orange    ; border: 5px red    solid; }
+ u                  { color: blue; }
+</style>
+
+
   </head>
 
   <body>
@@ -23,12 +38,153 @@
     <!-- -------------------- -->
     <h2>Ejemplo Nro 1</h2>
 
+<div class="grid">
+  <div class="g-col-4">.g-col-4</div>
+  <div class="g-col-4">.g-col-4</div>
+  <div class="g-col-4">.g-col-4</div>
+</div>
 
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 2</h2>
 
+<div class="grid">
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 3</h2>
+
+<div class="grid">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-6">.g-col-6</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 4</h2>
+
+<div class="grid">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-6">.g-col-6</div>
+
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-6">.g-col-6</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 5</h2>
+
+<div class="grid">
+  <div class="g-col-3 g-start-2">.g-col-3 .g-start-2</div>
+  <div class="g-col-4 g-start-6">.g-col-4 .g-start-6</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 6</h2>
+
+<div class="grid">
+  <div class="g-col-3 g-start-2">.g-col-3 .g-start-2</div>
+  <div class="g-col-4 g-start-6">.g-col-4 .g-start-6</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 7</h2>
+
+<div class="grid">
+  <div class="g-col-6">.g-col-6</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+  <div>1</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 8</h2>
+
+<div class="grid" style="--bs-columns: 3;">
+  <div>
+    First auto-column
+    <div class="grid">
+      <div>Auto-column</div>
+      <div>Auto-column</div>
+    </div>
+  </div>
+  <div>
+    Second auto-column
+    <div class="grid" style="--bs-columns: 12;">
+      <div class="g-col-6">6 of 12</div>
+      <div class="g-col-4">4 of 12</div>
+      <div class="g-col-2">2 of 12</div>
+    </div>
+  </div>
+  <div>Third auto-column</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 9</h2>
+
+<div class="grid" style="--bs-columns: 3;">
+  <div>Auto-column</div>
+  <div>Auto-column</div>
+  <div>Auto-column</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 10</h2>
+
+<div class="grid" style="--bs-columns: 4; --bs-gap: 5rem;">
+  <div class="g-col-2">.g-col-2</div>
+  <div class="g-col-2">.g-col-2</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 11</h2>
+
+<div class="grid" style="--bs-columns: 10; --bs-gap: 1rem;">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-4">.g-col-4</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 12</h2>
+
+<div class="grid" style="--bs-columns: 10; --bs-gap: 1rem;">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-4">.g-col-4</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 13</h2>
+
+<div class="grid" style="--bs-columns: 10; --bs-gap: 1rem;">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-4">.g-col-4</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 14</h2>
+
+<div class="grid" style="--bs-gap: .25rem 1rem;">
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-6">.g-col-6</div>
+
+  <div class="g-col-6">.g-col-6</div>
+  <div class="g-col-6">.g-col-6</div>
+</div>
+
+    <!-- -------------------- -->
+    <h2>Ejemplo Nro 15</h2>
+
+<div class="grid" style="--bs-columns: 18; --bs-gap: .5rem;">
+  <div style="grid-column: span 14;">14 columns</div>
+  <div class="g-col-4">.g-col-4</div>
+</div>
 
 
     <!-- -------------------- -->
-
 
 
     <!-- Bootstrap JS-->
