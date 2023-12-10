@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Componentes</title>
+    <!-- BootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!---------------------------->
+
+    <h1>Acordion</h1>
+    <p> los elementos en bootstrap ya vienen predefinidos, en general los arcodions, son div de tipo acordion que 
+    incorporan dentro divs de tipo acordion-item</p>
+
+    <!---------------------------->
+<div class="accordion" id="accordionExample">
+  <!--inicio acordion-item -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	<strong> div del tipo acordion-item numero 1</strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+	Hola este es el cuerpo de un acrodion item
+      </div>
+    </div>
+  </div>
+  <!--inicio acordion-item -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	<strong> div del tipo acordion-item numero 2</strong>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+	este es el body del item 2
+      </div>
+    </div>
+  </div>
+  <!--inicio acordion-item -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	<strong> div del tipo acordion-item numero 3</strong>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+	hola, este es el body del item 3
+      </div>
+    </div>
+  </div>
+  <!--inicio acordion-item -->
+</div>
+
+    <!---------------------------->
+
+    <!---------------------------->
+
+
+
+    <!---------------------------->
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
+
